@@ -1,0 +1,210 @@
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.00000] opening E:\LIBS\LIBS81Redistro\Allegro525_GCC81_MinGW_W64_i686_posix_dwarf\bin\examples\allegro5.cfg r
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:852  _al_win_safe_load_library        [   0.00000] PathFindOnPath found: C:\WINDOWS\system32\shcore.dll
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:763  load_library_at_path             [   0.00000] Calling LoadLibrary C:\WINDOWS\system32\shcore.dll
+system   I E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:766  load_library_at_path             [   0.00000] Loaded C:\WINDOWS\system32\shcore.dll
+system   I E:\LIBS\LIBS81Rebuild\allegro525\src\system.c:267  al_install_system                [   0.00000] Allegro version: 5.2.5
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:852  _al_win_safe_load_library        [   0.00168] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:763  load_library_at_path             [   0.00170] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
+system   I E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:766  load_library_at_path             [   0.00428] Loaded C:\WINDOWS\system32\d3d9.dll
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:674  d3d_init_display                 [   0.01276] Render-to-texture: 1
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1768 d3d_create_display_locked        [   0.01358] faux_fullscreen=0
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1769 d3d_create_display_locked        [   0.01359] al_display=05320048
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1770 d3d_create_display_locked        [   0.01360] al_display->vt=00E8E2B0
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.01588] found 64 format combinations
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01590] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01591] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01592] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01593] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01594] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01595] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01595] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01596] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01597] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01598] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01599] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01600] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01600] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01606] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01607] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01608] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01608] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01609] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01610] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01611] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01612] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01612] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01613] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01614] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01615] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01616] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01616] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01617] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01618] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01619] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01619] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01620] Score is : 641
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01621] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01622] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01622] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01623] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01624] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01625] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01626] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01627] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01627] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01628] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01629] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01630] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01631] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01631] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01632] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01633] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01634] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01635] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01635] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01636] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01637] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01638] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01638] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01639] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01640] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01641] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01642] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01642] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01643] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01644] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01645] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01646] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01647] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01647] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01648] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01649] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01650] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01651] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01651] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01652] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01653] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01654] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01654] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01655] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01656] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01657] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01657] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01658] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01659] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01660] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01661] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01661] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01662] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01663] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01664] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01667] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01668] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01669] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01670] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01671] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01671] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01672] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01673] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:527  _al_score_display_settings       [   0.01674] Score is : 513
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01675] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01675] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01676] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01677] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01678] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01678] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01679] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01680] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01681] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01682] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01682] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01683] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01684] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01685] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01685] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01686] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01687] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01688] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01689] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01690] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01691] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01691] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01692] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01693] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01694] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01694] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01695] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01696] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01697] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01698] Single Buffer requirement not met.
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:212  debug_display_settings           [   0.01699] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D E:\LIBS\LIBS81Rebuild\allegro525\src\display_settings.c:398  _al_score_display_settings       [   0.01699] Single Buffer requirement not met.
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1668 d3d_create_display_internals     [   0.01701] Trying format 0.
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1344 d3d_display_thread_proc          [   0.01721] Chose a display format: 23
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1413 d3d_display_thread_proc          [   0.01723] Normal window.
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:781  d3d_create_device                [   0.03388] Using no depth stencil buffer
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:839  d3d_create_device                [   0.04308] BeginScene succeeded in create_device
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:847  d3d_create_device                [   0.04310] Success
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1691 d3d_create_display_internals     [   0.04313] Resumed after wait.
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1724 d3d_create_display_internals     [   0.04315] Format 0 succeeded.
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1755 d3d_create_display_internals     [   0.04318] Returning d3d_display: 05320048
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1780 d3d_create_display_locked        [   0.04319] al_display=05320048
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1781 d3d_create_display_locked        [   0.04320] al_display->vt=00E8E2B0
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:852  _al_win_safe_load_library        [   0.04351] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_43.dll
+system   D E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:763  load_library_at_path             [   0.04352] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_43.dll
+system   I E:\LIBS\LIBS81Rebuild\allegro525\src\win\wsystem.c:766  load_library_at_path             [   0.04401] Loaded C:\WINDOWS\system32\d3dx9_43.dll
+d3dx9    I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0.04404] Module "d3dx9_43.dll" loaded.
+shader   D E:\LIBS\LIBS81Rebuild\allegro525\src\shader.c:169  al_use_shader                    [   0.06701] use_shader succeeded
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.06704] opening data/mysha.pcx rb
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.06721] opening data/mysha.pcx rb
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06728] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06728] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06729] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06730] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06731] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06731] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06732] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06733] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.06733] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1196 real_choose_bitmap_format        [   0.06734] Alpha doesn't match
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1203 real_choose_bitmap_format        [   0.06735] Adapter format is 23
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1206 real_choose_bitmap_format        [   0.06736] Found a format
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:2377 d3d_create_bitmap                [   0.06736] Chose bitmap format 9
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:196  _al_register_destructor          [   0.06767] added dtor for bitmap 0532C970, func 67781C90
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.07386] opening data/obp.jpg rb
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.11265] opening data/obp.jpg rb
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11390] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11391] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11392] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11392] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11393] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11394] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11395] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11396] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1188 real_choose_bitmap_format        [   0.11396] Fake format
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1196 real_choose_bitmap_format        [   0.11397] Alpha doesn't match
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1203 real_choose_bitmap_format        [   0.11398] Adapter format is 23
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1206 real_choose_bitmap_format        [   0.11399] Found a format
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:2377 d3d_create_bitmap                [   0.11399] Chose bitmap format 9
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:196  _al_register_destructor          [   0.11414] added dtor for bitmap 05370350, func 67781C90
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:196  _al_register_destructor          [   0.11992] added dtor for shader 05325DC8, func 677B402B
+stdio    D E:\LIBS\LIBS81Rebuild\allegro525\src\file_stdio.c:110  file_stdio_fopen                 [   0.12928] opening data/ex_shader_multitex_pixel.hlsl r
+shader   D E:\LIBS\LIBS81Rebuild\allegro525\src\shader.c:169  al_use_shader                    [   0.14453] use_shader succeeded
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:196  _al_register_destructor          [   0.14455] added dtor for timer 05323408, func 677B6B11
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:196  _al_register_destructor          [   0.14457] added dtor for queue 0532C538, func 677A6293
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.18214] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.18220] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.18320] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.18323] _al_d3d_sync_bitmap (video) ref count == 2
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:227  _al_unregister_destructor        [   9.38578] removed dtor for bitmap 0532C970
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:227  _al_unregister_destructor        [   9.38664] removed dtor for bitmap 05370350
+d3d      W E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:2420 _al_d3d_destroy_bitmap           [   9.38669] d3d_destroy_bitmap: Release video texture failed.
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:227  _al_unregister_destructor        [   9.38840] removed dtor for shader 05325DC8
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:116  _al_run_destructors              [   9.38910] calling dtor for queue 0532C538, func 677A6293
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:227  _al_unregister_destructor        [   9.38917] removed dtor for queue 0532C538
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:116  _al_run_destructors              [   9.38925] calling dtor for timer 05323408, func 677B6B11
+dtor     D E:\LIBS\LIBS81Rebuild\allegro525\src\dtor.c:227  _al_unregister_destructor        [   9.38930] removed dtor for timer 05323408
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:901  d3d_destroy_display              [   9.39537] destroying display 05320048 (current 00000000)
+d3d      D E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:885  d3d_destroy_display_internals    [   9.39936] waiting for display 05320048's thread to end
+d3d      W E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:595  d3d_destroy_device               [   9.42236] d3d_destroy_device: ref count not 0
+d3d      I E:\LIBS\LIBS81Rebuild\allegro525\src\win\d3d_disp.cpp:1548 d3d_display_thread_proc          [   9.43621] d3d display thread exits
