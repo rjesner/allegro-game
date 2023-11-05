@@ -9,7 +9,7 @@ file(GLOB_RECURSE source_list ${PROJECT_SOURCE_DIR} source/*.cpp)
 
 add_executable(${PROJECT_NAME} ${source_list})
 
-target_compile_options(${PROJECT_NAME} PUBLIC "-Wl,--subsystem,windows")
+target_link_options(${PROJECT_NAME} PUBLIC "-mwindows")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include

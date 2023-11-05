@@ -11,58 +11,47 @@ int main(void) {
 
 bool Game::create() {
 	al_init();
-	al_init_primitives_addon();
+	::al_init_primitives_addon();
 
-	display = al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT);
+	display = std::shared_ptr<ALLEGRO_DISPLAY>(::al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT), ::al_destroy_display);
 
-	al_set_window_position(display, 200, 200);
+	::al_install_keyboard();
+	::al_init_image_addon();
 
-	al_install_keyboard();
-	al_init_image_addon();
-
-	player = al_load_bitmap("../resource/player.png");
-	background = al_load_bitmap("../resource/forest.png");
+	player = std::shared_ptr<ALLEGRO_BITMAP>(::al_load_bitmap("../resource/player.png"), ::al_destroy_bitmap);
+	background = std::shared_ptr<ALLEGRO_BITMAP>(::al_load_bitmap("../resource/forest.png"), ::al_destroy_bitmap);
  
-	timer = al_create_timer(1.0 / FPS);
-	frameTimer = al_create_timer(1.0 / FRAME_FPS);
+	timer = std::shared_ptr<ALLEGRO_TIMER>(::al_create_timer(1.0 / FPS), ::al_destroy_timer);
+	frameTimer = std::shared_ptr<ALLEGRO_TIMER>(::al_create_timer(1.0 / FRAME_FPS), ::al_destroy_timer);
 
-	eventQueue = al_create_event_queue();
-	al_register_event_source(eventQueue, al_get_timer_event_source(timer));
-	al_register_event_source(eventQueue, al_get_timer_event_source(frameTimer));
-	al_register_event_source(eventQueue, al_get_display_event_source(display));
-	al_register_event_source(eventQueue, al_get_keyboard_event_source());
+	eventQueue = std::shared_ptr<ALLEGRO_EVENT_QUEUE>(::al_create_event_queue(), ::al_destroy_event_queue);
+	::al_register_event_source(eventQueue.get(), ::al_get_timer_event_source(timer.get()));
+	::al_register_event_source(eventQueue.get(), ::al_get_timer_event_source(frameTimer.get()));
+	::al_register_event_source(eventQueue.get(), ::al_get_display_event_source(display.get()));
+	::al_register_event_source(eventQueue.get(), ::al_get_keyboard_event_source());
 
-	al_start_timer(timer);
-	al_start_timer(frameTimer);
+	::al_start_timer(timer.get());
+	::al_start_timer(frameTimer.get());
 	return true;
-}
-
-Game::~Game() {
-	al_destroy_display(display);
-	al_destroy_timer(timer);
-	al_destroy_timer(frameTimer);
-	al_destroy_bitmap(player);
-	al_destroy_bitmap(background);
-	al_destroy_event_queue(eventQueue);
 }
 
 void Game::runMainLoop() {
 	while(!done) {
 		ALLEGRO_EVENT events;
-		al_wait_for_event(eventQueue, &events);
-		al_get_keyboard_state(&keyState);
+		::al_wait_for_event(eventQueue.get(), &events);
+		::al_get_keyboard_state(&keyState);
 
 		if(events.type == ALLEGRO_EVENT_DISPLAY_CLOSE) {
 			done = true;
 		}
 		else if(events.type == ALLEGRO_EVENT_TIMER) {
-			if(events.timer.source == timer) {
+			if(events.timer.source == timer.get()) {
 				/* Here happens the checking of each keys if pressed!
 				If a key is pressed, a target is set from zero to non-zero,
 				so the walking animation happens smoothly, i.e., with each frame
 				passing in FPS = 60 FPS. The control flag ensures that two keys do not
 				get pressed at the same time (avoiding diagonal movement). */
-				if(al_key_down(&keyState, ALLEGRO_KEY_DOWN)) {
+				if(::al_key_down(&keyState, ALLEGRO_KEY_DOWN)) {
 					if(!controlFlag && !target[DOWN]) {
 						controlFlag = true;
 						target[DOWN] = y + TILE_SIZE;
@@ -70,7 +59,7 @@ void Game::runMainLoop() {
 					dir = DOWN;
 					active = true;
 				}
-				else if(al_key_down(&keyState, ALLEGRO_KEY_UP)) {
+				else if(::al_key_down(&keyState, ALLEGRO_KEY_UP)) {
 					if(!controlFlag && !target[UP]) {
 						controlFlag = true;
 						target[UP] = y - TILE_SIZE;
@@ -78,7 +67,7 @@ void Game::runMainLoop() {
 					dir = UP;
 					active = true;
 				}
-				else if(al_key_down(&keyState, ALLEGRO_KEY_RIGHT)) {
+				else if(::al_key_down(&keyState, ALLEGRO_KEY_RIGHT)) {
 					if(!controlFlag && !target[RIGHT]) {
 						controlFlag = true;
 						target[RIGHT] = x + TILE_SIZE;
@@ -86,7 +75,7 @@ void Game::runMainLoop() {
 					dir = RIGHT;
 					active = true;
 				}
-				else if(al_key_down(&keyState, ALLEGRO_KEY_LEFT)) {
+				else if(::al_key_down(&keyState, ALLEGRO_KEY_LEFT)) {
 					if(!controlFlag && !target[LEFT]) {
 						controlFlag = true;
 						target[LEFT] = x - TILE_SIZE;
@@ -141,25 +130,25 @@ void Game::runMainLoop() {
 					controlFlag = false;
 
 
-				al_identity_transform(&camera);
+				::al_identity_transform(&camera);
 				
-				//al_translate_transform(&camera, SCREEN_WIDTH / 2 - x, SCREEN_HEIGHT / 2 - y);
+				//::al_translate_transform(&camera, SCREEN_WIDTH / 2 - x, SCREEN_HEIGHT / 2 - y);
 				
-				al_scale_transform(&camera, 2, 2);
-				al_translate_transform(&camera, SCREEN_WIDTH / 2 - 2 * x, SCREEN_HEIGHT / 2 - 2 * y);
+				::al_scale_transform(&camera, 2, 2);
+				::al_translate_transform(&camera, SCREEN_WIDTH / 2 - 2 * x, SCREEN_HEIGHT / 2 - 2 * y);
 
-				al_use_transform(&camera);
+				::al_use_transform(&camera);
 			}
-			else if(events.timer.source == frameTimer) {
+			else if(events.timer.source == frameTimer.get()) {
 				/* This code makes the transition of the sprites, i.e.,
 				the warking animation of the player. */
 				if(active) {
-					sourceX += al_get_bitmap_width(player) / 3;
+					sourceX += ::al_get_bitmap_width(player.get()) / 3;
 					active = 0;
 				}
 				else
 					sourceX = 0;
-				if(sourceX >= al_get_bitmap_width(player))
+				if(sourceX >= ::al_get_bitmap_width(player.get()))
 					sourceX = 0;
 				sourceY = dir;	
 			}
@@ -172,23 +161,23 @@ void Game::runMainLoop() {
 }
 
 void Game::drawContent() {
-	ALLEGRO_BITMAP *subBitmap = al_create_sub_bitmap(player, sourceX, sourceY * TILE_SIZE, TILE_SIZE, TILE_SIZE);
-	al_draw_bitmap(background, 0, 0, 0);
-	al_draw_bitmap(subBitmap, x, y, 0);
+	std::shared_ptr<ALLEGRO_BITMAP> subBitmap(::al_create_sub_bitmap(player.get(), sourceX, sourceY * TILE_SIZE,
+		TILE_SIZE, TILE_SIZE), ::al_destroy_bitmap);
+	::al_draw_bitmap(background.get(), 0, 0, 0);
+	::al_draw_bitmap(subBitmap.get(), x, y, 0);
 
 	drawGrid();
 
-	al_flip_display();
-	al_clear_to_color(al_map_rgb(0, 0, 0));
-	al_destroy_bitmap(subBitmap);
+	::al_flip_display();
+	::al_clear_to_color(::al_map_rgb(0, 0, 0));
 }
 
 void Game::drawGrid() {
 	int gridSpacing = TILE_SIZE;
-	for (int y = 0; y < SCREEN_HEIGHT; y += gridSpacing) {
-		al_draw_line(0, y, SCREEN_WIDTH, y, al_map_rgb(255, 0, 0), -1);
+	for(int y = 0; y < SCREEN_HEIGHT; y += gridSpacing) {
+		::al_draw_line(0, y, SCREEN_WIDTH, y, ::al_map_rgb(255, 0, 0), -1);
 	}
-	for (int x = 0; x < SCREEN_WIDTH; x += gridSpacing) {
-		al_draw_line(x, 0, x, SCREEN_HEIGHT, al_map_rgb(255, 0, 0), -1);
+	for(int x = 0; x < SCREEN_WIDTH; x += gridSpacing) {
+		::al_draw_line(x, 0, x, SCREEN_HEIGHT, ::al_map_rgb(255, 0, 0), -1);
 	}
 }
