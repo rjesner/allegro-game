@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set(ALLEGRO_PATH third-party/Allegro)
 
-file(GLOB_RECURSE source_list ${PROJECT_SOURCE_DIR} source/*.cpp)
+file(GLOB_RECURSE source_list ${PROJECT_SOURCE_DIR} src/*.cpp)
 
 add_executable(${PROJECT_NAME} ${source_list})
 
